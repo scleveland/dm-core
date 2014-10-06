@@ -828,9 +828,9 @@ module DataMapper
     #
     # @api private
     def assert_valid_name
-      if name.to_s.strip.empty?
-        raise IncompleteModelError, "#{inspect} must have a name"
-      end
+      # if name.to_s.strip.empty?
+      #   raise IncompleteModelError, "#{inspect} must have a name"
+      # end
     end
 
     # Test if the model has properties
